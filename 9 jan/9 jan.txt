@@ -1,0 +1,4 @@
+setup git & github.
+installed git extentions
+installed KDiff
+created repo in github 'training'.

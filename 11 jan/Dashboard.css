@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Quicksand;
+    src: url("quantum screen assets/Quicksand font 1/static/Quicksand-Regular.ttf");
+}
+body{
+    margin: 0;
+    background: #EEEEEE;
+    font-family: Quicksand;
+}
+.header{
+    background: #25313F url("quantum screen assets/header pattern svg.svg");
+    opacity: 1;
+    padding: 8px 20px;
+    background-size: cover;
+    border-bottom: 2px solid #31B9E4;
+}
+.navbar{
+    float: right;
+}
+.list-items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    color: #3FD28B;
+    text-align: center;
+}
+.list-items li{
+    margin-left: 32px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+.list-items li img{
+    width: 21px;
+    height: 24px;
+}
+.non-navigate:hover{
+    color: white;
+    border-bottom: 4px solid #FFFFFF;
+}
+#profile-icon{
+    font-size: 14px;
+    border: 2px solid #3FD28B;
+    border-radius: 50%;
+    height: 21px;
+    color: #3FD28B;
+    padding-bottom: 0px;
+    width:24px
+}
+#profile-icon:hover{
+    border: 2px solid #3FD28B;
+    border-radius: 50%;
+}
+.nav-icons:hover{
+    width: 22px;
+    height: 25px;
+    border-radius: 50%;
+    padding-bottom: 0px;
+    background-color: white;
+}
+.navigation{
+    display: none;
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgba(31, 122, 84, 1);
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+#about{
+    margin-left: auto;
+    padding-right: 9px;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+#contact{
+    padding-left: 9px;
+}
+.footer{
+    background-color: rgba(224, 225, 225, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0 8px 0;
+}
+.footer img{
+    margin-right: 16px;
+    color: rgba(31, 40, 52, 1);
+}
+.info{
+    display: flex;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    padding-left: 16px;
+    color: rgba(97, 97, 97, 1);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.padding-right{
+    padding-right: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer-main{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 833px){
+    .non-navigate{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+}

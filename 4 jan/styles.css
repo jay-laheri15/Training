@@ -1,0 +1,61 @@
+
+.main{
+    margin: 100px auto;
+    width: 457px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+#profile{
+    height: 130px;
+    width: 130px;
+    padding-right: 14px;
+}
+
+.details{
+    margin-left: 0;
+    padding: 0;
+}
+
+.username{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0px;
+}
+.desc{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 14px;
+}
+
+.dopamines{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 24px;
+}
+.dops{
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 14px;
+}
+.icon-text{
+    /* display: inline; */
+    margin: auto;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 500;
+    font-size: 15px;
+    color: #858991;
+}

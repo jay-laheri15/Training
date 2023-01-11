@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Quicksand;
+    src: url("quantum screen assets/Quicksand font 1/static/Quicksand-Regular.ttf");
+}
+body{
+    margin: 0;
+    background: #EEEEEE;
+    font-family: Quicksand;
+}
+.header{
+    background: #25313F url("quantum screen assets/header pattern svg.svg");
+    opacity: 1;
+    padding: 8px 20px;
+    background-size: cover;
+    border-bottom: 2px solid #31B9E4;
+}
+
+.main{
+    background: #FFFFFF;
+    margin-top: 50px;
+    width: 488px;
+    margin: auto;
+    
+}
+form{
+    border-top: 4px solid #3AC7EC;
+    margin-top: 50px;
+    border-radius: 2px 2px 0 0;
+    padding: 20px 32px;
+}
+.main-header{
+    margin-bottom: 32px;
+    text-align: center;
+}
+.main-header span{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(34, 34, 34, 1);
+    
+}
+.main-header > img {
+    float: left;
+    width: 17px;
+    height: 26px;
+}
+#district, #school, #check{
+    accent-color:#1F7A54;
+    margin: 5px;
+}
+#district, #school{
+    color: rgba(51, 51, 51, 1);
+    font-size: 16px;
+    line-height: 20px;
+}
+#school{
+    margin-left: 32px;
+}
+.radio-item{
+    margin-bottom: 25px;
+}
+.selectopt{
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+#select-label{
+    color: rgba(102, 102, 102, 1);
+    font-size : 12px;
+    line-height: 16px;
+}
+.selectopt select{
+    width: 424px;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    color: rgba(34, 34, 34, 1);
+    font-size : 16px;
+    line-height: 20px;
+}
+
+.inputtext input{
+    font-size: 16px;
+    line-height: 20px;
+    width: 423px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.inputtext span{
+    float: right;
+    color: rgba(31, 122, 84, 1);
+    font-size: 14px;
+    line-height: 18px;
+}
+.inputpass{
+    margin-top: 56px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.inputpass input{
+    font-size: 16px;
+    line-height: 20px;
+    width: 398px;
+    margin-right: 0;
+    border: 0;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.12); */
+}
+.inputpass span{
+    float: right;
+    color: rgba(31, 122, 84, 1);
+    font-size: 14px;
+    line-height: 18px;
+}
+.inputpass img{
+    float: right;
+    width: 22px;
+    padding-top: 3px;
+    height: 15px;
+    display: inline;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.12); */
+}
+#check{
+    margin-top: 24px;
+}
+#check-label{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(34, 34, 34, 1);
+}
+.login{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 14px
+    /* width: 216px; */
+}
+.login input{
+    width: 216px;
+    height: 40px;
+    border: 0px;
+    color: rgba(31, 40, 52, 1);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.24);
+    opacity: 1;
+    border-radius: 3px;
+    background: rgba(63, 210, 139, 1) 0% 0% no-repeat padding-box;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgba(31, 122, 84, 1);
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+#about{
+    margin-left: auto;
+    padding-right: 9px;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+#contact{
+    padding-left: 9px;
+}
+/* .footer-main{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+.footer{
+    background-color: rgba(224, 225, 225, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0 8px 0;
+}
+.footer img{
+    margin-right: 16px;
+    color: rgba(31, 40, 52, 1);
+}
+.info{
+    display: flex;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    padding-left: 16px;
+    color: rgba(97, 97, 97, 1);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.padding-right{
+    padding-right: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer-main{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
